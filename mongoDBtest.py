@@ -2,7 +2,7 @@ import pymongo
 import pprint
 from pymongo import MongoClient
 
-client = pymongo.MongoClient("mongodb+srv://Hong:wsadwsad@utecho-hbnie.mongodb.net/test?retryWrites=true")
+client = pymongo.MongoClient("mongodb+srv://Hong:########@utecho-hbnie.mongodb.net/test?retryWrites=true")
 
 db = client.video
 collection_movie = db.movieDetails
